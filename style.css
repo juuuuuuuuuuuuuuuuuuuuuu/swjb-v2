@@ -1,0 +1,234 @@
+*{
+    margin: 0; /*바깥 여백 0*/
+    padding: 0; /*안쪽여백 0*/
+    box-sizing: border-box; /*테두리 두께 무시*/
+    /*border: 1px solid black;*/
+}
+
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none; /*밑줄 제거 */
+    display: block; /*a태그를 블록요소로 변경*/
+    color: black; /*글자색 검은색*/
+}
+li{
+    list-style-type: none; /*li태그의 기호 제거*/
+}
+.container{
+    width: 100%;
+    height: 1200px;
+
+    background: linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8))  ,url(bg.jpg) no-repeat;
+    background-size: cover;
+
+    color: white;
+
+}
+.header{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+
+    transition: 0.3s;
+}
+.logo:hover{
+    color: blanchedalmond;
+}
+.menu{
+    width: 400px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    width: 25%;
+    text-align: center;
+}
+.menu li a{
+    color: white;
+    transition: 0.3s;
+}
+.menu li a:hover{
+    color: blanchedalmond;
+}
+.main{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+
+    margin-top: 150px;
+    text-align: center;
+}
+.main h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.main h2{
+    font-size:40px ;
+    margin-bottom: 30px;
+}
+.main p{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.main button{
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+
+    color: white;
+
+    transition: 0.3s;
+}
+.main button:hover{
+    background-color: white;
+    color: black;
+}
+
+.about{
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.about h2{
+    font-size: 30px;
+    color:#3b5998;
+}
+
+.about h1{
+    font-size: 50px;
+}
+
+.about .contents{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+}
+
+.about .left{
+    width: 400px;
+    height: 500px;
+}
+
+.about .left img{
+    width: 400px;
+    height: 500px;
+}
+
+.about .right{
+    width: 800px;
+    height: 500px;
+    padding-left: 10px;
+}
+
+.about .right h3{
+    color: #3b5998;
+    font-size: 30px;
+}
+
+.about .right li{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.fa-brands{
+    font-size: 50px;
+    margin-right: 6px;
+}
+
+.fa-youtube{
+    color: red;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+
+.skills{
+    width: 100%;
+    height: 700px;
+    background-color: #eee;
+}
+.skills-inner{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.skills h2{
+    color: #3b5998;
+    font-size: 30px;
+}
+.skills h1{
+    font-size: 50px;
+}
+.skills .contents{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.skills .contents li{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+
+    padding: 10px;
+
+    transition: 0.3s;
+}
+.skills h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.skills p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.skills i{
+    color: #3b5998;
+}
+.fa-keyboard{
+    font-size: 50px;
+}
+.skills .contents li:hover{
+    background-color: #3b5998;
+    color: white;
+    transform: scale(1.05);
+}
+.skills .contents li:hover i{
+    color: white;
+}
+.bg{
+    width: 100%;
+    height: 800px;
+    background: url(bg2.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
