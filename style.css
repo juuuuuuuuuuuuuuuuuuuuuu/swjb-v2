@@ -113,7 +113,7 @@ li{
 
 .about h2{
     font-size: 30px;
-    color:#3b5998;
+    color:olivedrab;
 }
 
 .about h1{
@@ -144,7 +144,7 @@ li{
 }
 
 .about .right h3{
-    color: #3b5998;
+    color: olivedrab;
     font-size: 30px;
 }
 
@@ -176,7 +176,7 @@ li{
     padding-top: 100px;
 }
 .skills h2{
-    color: #3b5998;
+    color: olivedrab;
     font-size: 30px;
 }
 .skills h1{
@@ -210,13 +210,13 @@ li{
     font-size: 20px;
 }
 .skills i{
-    color: #3b5998;
+    color: olivedrab;
 }
 .fa-keyboard{
     font-size: 50px;
 }
 .skills .contents li:hover{
-    background-color: #3b5998;
+    background-color: olivedrab;
     color: white;
     transform: scale(1.05);
 }
