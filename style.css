@@ -45,7 +45,7 @@ li{
     transition: 0.3s;
 }
 .logo:hover{
-    color: blanchedalmond;
+    color: rgb(177, 177, 113);
 }
 .menu{
     width: 400px;
@@ -63,7 +63,7 @@ li{
     transition: 0.3s;
 }
 .menu li a:hover{
-    color: blanchedalmond;
+    color: rgb(177, 177, 113);
 }
 .main{
     width: 1200px;
@@ -205,7 +205,7 @@ li{
     font-size: 25px;
 }
 .skills p{
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
     font-size: 20px;
 }
@@ -260,7 +260,7 @@ li{
 .contact .right{
     width: 800px;
     height: 600px;
-    border: 2px dashed #ccc;
+    border-left: 2px solid #eee ;
     padding-left: 50px;
 }
 .info li{
@@ -277,20 +277,20 @@ li{
     font-size: 25px;
 }
 .contact .right input{
-    width: 500px;
+    width: 750px;
     height: 30px;
     margin-bottom: 30px;
 
     border: 1px solid #ccc;
 }
 .contact .right textarea{
-    width: 500px;
+    width: 750px;
     height: 300px;
 
     border: 1px solid #ccc;
 }
 .contact .right button{
-    width: 500px;
+    width: 750px;
     height: 30px;
     background-color: olivedrab;
     color: white;
