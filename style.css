@@ -230,5 +230,69 @@ li{
     background-size: cover;
     background-attachment: fixed;
 }
+.projects{
+    height: 1200px;
+}
+.contact{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    }
+.contact h2{
+    font-size: 30xp;
+    color: olivedrab;
+}
+.contact h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.contact .contents{
+    width: 1200px;
+    height: 600px;
 
+    display: flex;
+}
+.contact .left{
+    width: 400px;
+    height: 600px;
+}
+.contact .right{
+    width: 800px;
+    height: 600px;
+    border: 2px dashed #ccc;
+    padding-left: 50px;
+}
+.info li{
+    width: 350px;
+    height: 80px;
+
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.contact .right p{
+    font-size: 25px;
+}
+.contact .right input{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 30px;
+
+    border: 1px solid #ccc;
+}
+.contact .right textarea{
+    width: 500px;
+    height: 300px;
+
+    border: 1px solid #ccc;
+}
+.contact .right button{
+    width: 500px;
+    height: 30px;
+    background-color: olivedrab;
+    color: white;
+}
 
