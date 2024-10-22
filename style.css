@@ -142,6 +142,13 @@ li{
     height: 500px;
     padding-left: 10px;
 }
+.about .right ul{
+    width: 600px;
+}
+.about .right .icons{
+    display: flex;
+
+}
 
 .about .right h3{
     color: olivedrab;
@@ -162,6 +169,13 @@ li{
 }
 .fa-facebook{
     color: #3b5998;
+}
+.fa-instagram{
+    color: #eee;
+    padding-left: 2px;
+    padding-right: 2px;
+    background: linear-gradient(200deg, #515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+    border-radius: 10px
 }
 
 .skills{
@@ -273,6 +287,10 @@ li{
     font-size: 23px;
     font-weight: bold;
 }
+.info i{
+    padding-right: 10px;
+    font-style: normal;
+}
 .contact .right p{
     font-size: 25px;
 }
@@ -294,5 +312,6 @@ li{
     height: 30px;
     background-color: olivedrab;
     color: white;
+    font-weight: bold;
 }
 
