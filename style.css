@@ -29,9 +29,6 @@
     align-items: center;
 
 }
-a:hover {
-    color: rgb(131, 113, 87);
-}
 html{
     scroll-behavior: smooth;
 }
@@ -368,5 +365,13 @@ li{
     background-color: olivedrab;
     color: white;
     font-weight: bold;
+    border: 1px solid black;
+
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.contact .right button:active {
+    transform: translateY(1px);
+    box-shadow: 0px 4px 20px #a0a0a0;
 }
 
